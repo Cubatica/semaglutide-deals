@@ -697,7 +697,7 @@ Original tracking parameters have been removed for privacy.
                 <p class="common_text">All GLP-1 agonists can help with weight loss. But the amount of weight loss depends on the type of medicine and the dose. In general, most studies have found that Tirzepatide and Semaglutide are the most effective for weight loss. Both compounds are taken once a week by injection. Over 1.5 million patients in 2024 lost over 15% of their body fat when taking GLP 1 medications for longer than 4 months.</p>
                 <div class="sec2_video-box">
                     <img src="images/sec2_vdo-img.jpg" class="sec2_vdo-img" width="657" height="710" alt="img">
-                    <video controls="" playsinline="" width="100%" height="auto" id="myVdo" style="display:none;">
+                    <video playsinline="" width="100%" height="auto" id="myVdo" style="display:none;">
                         <source src="videos/reasons-why.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -1441,22 +1441,52 @@ document.addEventListener('DOMContentLoaded', function() {
     const video = document.getElementById('myVdo');
     
     if (videoBox && videoImg && video) {
+        let isPlaying = false;
+        
         // Handle clicking on the image to start video
         videoImg.addEventListener('click', function(e) {
             e.preventDefault();
             videoImg.style.display = 'none';
             video.style.display = 'block';
-            video.play().catch(function(error) {
+            video.controls = true; // Show controls for better UX
+            video.play().then(function() {
+                isPlaying = true;
+            }).catch(function(error) {
                 console.error('Error playing video:', error);
-                // If autoplay fails, show controls for manual play
                 video.controls = true;
             });
+        });
+        
+        // Handle video click to pause/play
+        video.addEventListener('click', function(e) {
+            // Prevent click if user is interacting with controls
+            if (e.target === video) {
+                e.preventDefault();
+                if (video.paused) {
+                    video.play().then(function() {
+                        isPlaying = true;
+                    });
+                } else {
+                    video.pause();
+                    isPlaying = false;
+                }
+            }
+        });
+        
+        // Track play/pause state
+        video.addEventListener('play', function() {
+            isPlaying = true;
+        });
+        
+        video.addEventListener('pause', function() {
+            isPlaying = false;
         });
         
         // When video ends, show image again
         video.addEventListener('ended', function() {
             video.style.display = 'none';
             videoImg.style.display = 'block';
+            isPlaying = false;
         });
         
         // Optional: Press Escape to go back to image
@@ -1465,15 +1495,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 video.pause();
                 video.style.display = 'none';
                 videoImg.style.display = 'block';
+                isPlaying = false;
             }
         });
         
-        // Handle video click to pause/play
-        video.addEventListener('click', function() {
-            if (video.paused) {
-                video.play();
-            } else {
-                video.pause();
+        // Add space bar to play/pause
+        document.addEventListener('keydown', function(e) {
+            if (e.key === ' ' && video.style.display === 'block') {
+                e.preventDefault();
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
             }
         });
     }

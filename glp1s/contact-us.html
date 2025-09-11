@@ -53,9 +53,8 @@
             margin: 0;
         }
         .contact-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
+            display: flex;
+            justify-content: center;
             margin-bottom: 50px;
         }
         .contact-form-section {
@@ -63,6 +62,8 @@
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            width: 100%;
+            max-width: 600px;
         }
         .contact-info-section {
             background: #fff;
@@ -251,60 +252,6 @@
 
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
-            </div>
-
-            <div class="contact-info-section">
-                <h2>Contact Information</h2>
-                
-                <div class="info-item">
-                    <div class="info-icon">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                        </svg>
-                    </div>
-                    <div class="info-content">
-                        <h3>Office Address</h3>
-                        <p>16192 Coastal Highway<br>
-                        Lewes, Delaware, 19958</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-icon">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                        </svg>
-                    </div>
-                    <div class="info-content">
-                        <h3>Email Address</h3>
-                        <p><a href="mailto:info@semaglutide-deals.com">info@semaglutide-deals.com</a></p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-icon">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                        </svg>
-                    </div>
-                    <div class="info-content">
-                        <h3>Business Hours</h3>
-                        <p>Monday - Friday: 9:00 AM - 6:00 PM EST<br>
-                        Saturday - Sunday: Closed</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-icon">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-                        </svg>
-                    </div>
-                    <div class="info-content">
-                        <h3>Response Time</h3>
-                        <p>We typically respond to all inquiries within 24-48 business hours.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

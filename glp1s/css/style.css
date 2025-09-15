@@ -847,7 +847,7 @@ a.best-row-btn{
     font-weight: bold;
     text-align: left;
 	}
-.futurhealth_box{
+.directmeds_box{
 	float:left;
 	width:100%;
 	border:3px solid #1b7dd8;
@@ -856,13 +856,13 @@ a.best-row-btn{
 	margin-top:40px;
 	box-shadow:0 0 15px 1px rgba(0,0,0,0.2);
 	}
-.futurhealth_box-top{
+.directmeds_box-top{
 	display: flex;
     display: -webkit-flex;
 	justify-content: space-between;
 	align-items: center;
 	}
-.futurhealth_box-top_left{
+.directmeds_box-top_left{
 	width:35%;
 	text-align:left;
 	display: flex;
@@ -870,24 +870,24 @@ a.best-row-btn{
 	align-items: center;
 	gap: 15px;
 	}
-.futurhealth_box-top_left span{
+.directmeds_box-top_left span{
 	font-size:40px;
 	line-height:40px;
 	color:#000;
 	font-weight:700;
 	}
-.futurhealth_box-top_left img{
+.directmeds_box-top_left img{
 	max-width:100%;
 	display:inline-block;
 	}
-.futurhealth_box-save{
+.directmeds_box-save{
 	font-size:18px;
 	line-height:24px;
 	color:#018ad7;
 	font-weight:500;
 	text-decoration:underline;
 	}
-.futurhealth_box-save:before{
+.directmeds_box-save:before{
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -898,7 +898,7 @@ a.best-row-btn{
     margin: -1px 8px 0 0;
     animation: breath 1.3s infinite;
 	}
-.futurhealth_rating{
+.directmeds_rating{
 	display: flex;
     display: -webkit-flex;
 	align-items: center;
@@ -907,7 +907,7 @@ a.best-row-btn{
 	text-align:left;
 	width:23%;
 	}
-.futurhealth_rating-txt1{
+.directmeds_rating-txt1{
 	display: flex;
     display: -webkit-flex;
     align-items: center;
@@ -923,33 +923,33 @@ a.best-row-btn{
     padding: 10px 5px;
     text-align: center;
 	}
-.futurhealth_rating-txt2{
+.directmeds_rating-txt2{
 	color: #636363;
     font-size: 11px;
     line-height: 17px;
 	}
-.futurhealth_rating-txt2 span{
+.directmeds_rating-txt2 span{
 	color:#010233;
 	font-size:16px;
 	font-weight:600;
 	}
-.futurhealth_box-mdl{
+.directmeds_box-mdl{
 	display: flex;
     display: -webkit-flex;
 	flex-wrap: wrap;
     justify-content: space-between;
 	}
-.futurhealth_box-mdl-left{
+.directmeds_box-mdl-left{
 	width:50.50%;
 	margin-top:30px;
 	}
-.futurhealth-banr{
+.directmeds-banr{
 	display:block;
 	margin:0 auto;
 	width:100%;
 	border:2px solid #1b7dd8;
 	}
-.futurhealth_box-mdl-right{
+.directmeds_box-mdl-right{
 	width:46%;
 	text-align:left;
 	}
@@ -1510,12 +1510,12 @@ ul.top_comapny-list li.active .comapny-list-rating {width: 55px;height: 55px; fo
 .best-editor-list{gap: 7px;}
 .best-editor-list li{font-size: 14px; line-height: 22px;padding-left: 22px;}
 
-.futurhealth_box{padding: 25px 25px;}
-.futurhealth_box-top_left{ width:26%;}
-.futurhealth_box-save{font-size: 15px;line-height: 24px;}
-.futurhealth_rating{width: 26%;}
-.futurhealth_box-mdl-left{ width:100%;}
-.futurhealth_box-mdl-right{ width:100%;}
+.directmeds_box{padding: 25px 25px;}
+.directmeds_box-top_left{ width:26%;}
+.directmeds_box-save{font-size: 15px;line-height: 24px;}
+.directmeds_rating{width: 26%;}
+.directmeds_box-mdl-left{ width:100%;}
+.directmeds_box-mdl-right{ width:100%;}
 .take_button-slider{width: 105%;left: -23px;}
 
 ul.sec2_list li p{font-size: 16px;line-height: 24px;}
@@ -1637,18 +1637,18 @@ ul.top_comapny-list li.active .comapny-list-rating{width: 50px; height: 50px;  f
 
 .weightloss_pick-sec{ margin-top:30px;}
 .weightloss_heading {font-size: 29px; line-height: 33px;}
-.futurhealth_box{ margin-top:25px;padding: 20px 15px;}
-.futurhealth_box-top_left {width: 42%;gap: 10px;}
-.futurhealth_box-top_left span {font-size: 30px;line-height: 30px;}
-.futurhealth_rating {width: 43%;}
-.futurhealth_rating-txt1{width: 32px;height: 32px;padding: 5px 5px;font-size: 13px; line-height: 20px;}
-.futurhealth_rating-txt2 {font-size: 9px;line-height: 15px;}
-.futurhealth_rating-txt2 span {font-size: 13px;}
-.futurhealth_box-mdl-left{ margin-top:20px;}
+.directmeds_box{ margin-top:25px;padding: 20px 15px;}
+.directmeds_box-top_left {width: 42%;gap: 10px;}
+.directmeds_box-top_left span {font-size: 30px;line-height: 30px;}
+.directmeds_rating {width: 43%;}
+.directmeds_rating-txt1{width: 32px;height: 32px;padding: 5px 5px;font-size: 13px; line-height: 20px;}
+.directmeds_rating-txt2 {font-size: 9px;line-height: 15px;}
+.directmeds_rating-txt2 span {font-size: 13px;}
+.directmeds_box-mdl-left{ margin-top:20px;}
 ul.inlude_list li{ font-size: 15px;}
 .take_button{padding: 15px 0;font-size: 16px;}
 .take_button-slider{width: 110%;left: -5%;}
-.futurhealth_box-save{ text-align:center; margin-top:15px;}
+.directmeds_box-save{ text-align:center; margin-top:15px;}
 
 
 .sectionTwo{ padding:20px 0 0;}

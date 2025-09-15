@@ -847,7 +847,7 @@ a.best-row-btn{
     font-weight: bold;
     text-align: left;
 	}
-.directmeds_box{
+.futurhealth_box{
 	float:left;
 	width:100%;
 	border:3px solid #1b7dd8;
@@ -856,13 +856,13 @@ a.best-row-btn{
 	margin-top:40px;
 	box-shadow:0 0 15px 1px rgba(0,0,0,0.2);
 	}
-.directmeds_box-top{
+.futurhealth_box-top{
 	display: flex;
     display: -webkit-flex;
 	justify-content: space-between;
 	align-items: center;
 	}
-.directmeds_box-top_left{
+.futurhealth_box-top_left{
 	width:35%;
 	text-align:left;
 	display: flex;
@@ -870,24 +870,24 @@ a.best-row-btn{
 	align-items: center;
 	gap: 15px;
 	}
-.directmeds_box-top_left span{
+.futurhealth_box-top_left span{
 	font-size:40px;
 	line-height:40px;
 	color:#000;
 	font-weight:700;
 	}
-.directmeds_box-top_left img{
+.futurhealth_box-top_left img{
 	max-width:100%;
 	display:inline-block;
 	}
-.directmeds_box-save{
+.futurhealth_box-save{
 	font-size:18px;
 	line-height:24px;
 	color:#018ad7;
 	font-weight:500;
 	text-decoration:underline;
 	}
-.directmeds_box-save:before{
+.futurhealth_box-save:before{
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -898,7 +898,7 @@ a.best-row-btn{
     margin: -1px 8px 0 0;
     animation: breath 1.3s infinite;
 	}
-.directmeds_rating{
+.futurhealth_rating{
 	display: flex;
     display: -webkit-flex;
 	align-items: center;
@@ -907,7 +907,7 @@ a.best-row-btn{
 	text-align:left;
 	width:23%;
 	}
-.directmeds_rating-txt1{
+.futurhealth_rating-txt1{
 	display: flex;
     display: -webkit-flex;
     align-items: center;
@@ -923,33 +923,33 @@ a.best-row-btn{
     padding: 10px 5px;
     text-align: center;
 	}
-.directmeds_rating-txt2{
+.futurhealth_rating-txt2{
 	color: #636363;
     font-size: 11px;
     line-height: 17px;
 	}
-.directmeds_rating-txt2 span{
+.futurhealth_rating-txt2 span{
 	color:#010233;
 	font-size:16px;
 	font-weight:600;
 	}
-.directmeds_box-mdl{
+.futurhealth_box-mdl{
 	display: flex;
     display: -webkit-flex;
 	flex-wrap: wrap;
     justify-content: space-between;
 	}
-.directmeds_box-mdl-left{
+.futurhealth_box-mdl-left{
 	width:50.50%;
 	margin-top:30px;
 	}
-.directmeds-banr{
+.futurhealth-banr{
 	display:block;
 	margin:0 auto;
 	width:100%;
 	border:2px solid #1b7dd8;
 	}
-.directmeds_box-mdl-right{
+.futurhealth_box-mdl-right{
 	width:46%;
 	text-align:left;
 	}
@@ -1510,12 +1510,12 @@ ul.top_comapny-list li.active .comapny-list-rating {width: 55px;height: 55px; fo
 .best-editor-list{gap: 7px;}
 .best-editor-list li{font-size: 14px; line-height: 22px;padding-left: 22px;}
 
-.directmeds_box{padding: 25px 25px;}
-.directmeds_box-top_left{ width:26%;}
-.directmeds_box-save{font-size: 15px;line-height: 24px;}
-.directmeds_rating{width: 26%;}
-.directmeds_box-mdl-left{ width:100%;}
-.directmeds_box-mdl-right{ width:100%;}
+.futurhealth_box{padding: 25px 25px;}
+.futurhealth_box-top_left{ width:26%;}
+.futurhealth_box-save{font-size: 15px;line-height: 24px;}
+.futurhealth_rating{width: 26%;}
+.futurhealth_box-mdl-left{ width:100%;}
+.futurhealth_box-mdl-right{ width:100%;}
 .take_button-slider{width: 105%;left: -23px;}
 
 ul.sec2_list li p{font-size: 16px;line-height: 24px;}
@@ -1637,18 +1637,18 @@ ul.top_comapny-list li.active .comapny-list-rating{width: 50px; height: 50px;  f
 
 .weightloss_pick-sec{ margin-top:30px;}
 .weightloss_heading {font-size: 29px; line-height: 33px;}
-.directmeds_box{ margin-top:25px;padding: 20px 15px;}
-.directmeds_box-top_left {width: 42%;gap: 10px;}
-.directmeds_box-top_left span {font-size: 30px;line-height: 30px;}
-.directmeds_rating {width: 43%;}
-.directmeds_rating-txt1{width: 32px;height: 32px;padding: 5px 5px;font-size: 13px; line-height: 20px;}
-.directmeds_rating-txt2 {font-size: 9px;line-height: 15px;}
-.directmeds_rating-txt2 span {font-size: 13px;}
-.directmeds_box-mdl-left{ margin-top:20px;}
+.futurhealth_box{ margin-top:25px;padding: 20px 15px;}
+.futurhealth_box-top_left {width: 42%;gap: 10px;}
+.futurhealth_box-top_left span {font-size: 30px;line-height: 30px;}
+.futurhealth_rating {width: 43%;}
+.futurhealth_rating-txt1{width: 32px;height: 32px;padding: 5px 5px;font-size: 13px; line-height: 20px;}
+.futurhealth_rating-txt2 {font-size: 9px;line-height: 15px;}
+.futurhealth_rating-txt2 span {font-size: 13px;}
+.futurhealth_box-mdl-left{ margin-top:20px;}
 ul.inlude_list li{ font-size: 15px;}
 .take_button{padding: 15px 0;font-size: 16px;}
 .take_button-slider{width: 110%;left: -5%;}
-.directmeds_box-save{ text-align:center; margin-top:15px;}
+.futurhealth_box-save{ text-align:center; margin-top:15px;}
 
 
 .sectionTwo{ padding:20px 0 0;}
@@ -1694,3 +1694,132 @@ footer{ padding:30px 0;}
 }
 
 
+
+/* Medvi Box Styles */
+.medvi_box{
+	float:left;
+	width:100%;
+	border:3px solid #1b7dd8;
+	border-radius:10px;
+	padding:25px 35px;
+	margin-top:40px;
+	box-shadow:0 0 15px 1px rgba(0,0,0,0.2);
+}
+.medvi_box-top{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.medvi_box-top_left{
+	width:35%;
+	text-align:left;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	gap: 15px;
+}
+.medvi_box-top_left span{
+	font-size:40px;
+	line-height:40px;
+	color:#000;
+	font-weight:700;
+}
+.medvi_box-top_left img{
+	max-width:100%;
+	display:inline-block;
+}
+.medvi_box-save{
+	font-size:18px;
+	line-height:24px;
+	color:#018ad7;
+	font-weight:500;
+	text-decoration:underline;
+}
+.medvi_box-save:before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #1a9f39;
+	margin: -1px 8px 0 0;
+	animation: breath 1.3s infinite;
+}
+.medvi_rating{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: end;
+	gap: 7px;
+	text-align:left;
+	width:23%;
+}
+.medvi_rating-txt1{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	width: 52px;
+	height: 50px;
+	color: #fff;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	background: #1b7dd8;
+	border-radius: 4px;
+	padding: 10px 5px;
+	text-align: center;
+}
+.medvi_rating-txt2{
+	color: #636363;
+	font-size: 11px;
+	line-height: 17px;
+}
+.medvi_rating-txt2 span{
+	color:#010233;
+	font-size:16px;
+	font-weight:600;
+}
+.medvi_box-mdl{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.medvi_box-mdl-left{
+	width:50.50%;
+	margin-top:30px;
+}
+.medvi-banr{
+	display:block;
+	margin:0 auto;
+	width:100%;
+	height:auto;
+}
+.medvi_box-mdl-right{
+	width:46.5%;
+	margin-top:30px;
+}
+
+/* Responsive Medvi Box Styles */
+@media only screen and (max-width:991px){
+	.medvi_box{padding: 25px 25px;}
+	.medvi_box-top_left{ width:26%;}
+	.medvi_box-save{font-size: 15px;line-height: 24px;}
+	.medvi_rating{width: 26%;}
+	.medvi_box-mdl-left{ width:100%;}
+	.medvi_box-mdl-right{ width:100%;}
+}
+@media only screen and (max-width:767px){
+	.medvi_box{ margin-top:25px;padding: 20px 15px;}
+	.medvi_box-top_left {width: 42%;gap: 10px;}
+	.medvi_box-top_left span {font-size: 30px;line-height: 30px;}
+	.medvi_rating {width: 43%;}
+	.medvi_rating-txt1{width: 32px;height: 32px;padding: 5px 5px;font-size: 13px; line-height: 20px;}
+	.medvi_rating-txt2 {font-size: 9px;line-height: 15px;}
+	.medvi_rating-txt2 span {font-size: 13px;}
+	.medvi_box-mdl-left{ margin-top:20px;}
+	.medvi_box-save{ text-align:center; margin-top:15px;}
+}

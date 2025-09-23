@@ -280,7 +280,7 @@ Original tracking parameters have been removed for privacy.
 	<div class="container">
     	<div class="date_box">
             <img src="images/calender-icn.png" class="calender-icn" width="19" height="19" alt="icon">
-            <p>Last Updated <br><span id="update-date">3 Sept, 2025</span></p>
+            <p>Last Updated <br><span id="update-date">22 Sept, 2025</span></p>
         </div>
         <div class="clearall"></div>
         <h3 class="top_pick-hdng">View Our Top Picks</h3>
@@ -1397,16 +1397,18 @@ Original tracking parameters have been removed for privacy.
 <!--------Script------------->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Update date to today in EST timezone
+    // Update date to yesterday in EST timezone
     const updateDateElement = document.getElementById('update-date');
     if (updateDateElement) {
-        const options = { 
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const options = {
             timeZone: 'America/New_York',
             year: 'numeric',
             month: 'short',
             day: 'numeric'
         };
-        const estDate = new Date().toLocaleDateString('en-US', options);
+        const estDate = yesterday.toLocaleDateString('en-US', options);
         // Format as "3 Sept, 2025" style (day month, year)
         const parts = estDate.split(' ');
         const day = parts[1].replace(',', '');

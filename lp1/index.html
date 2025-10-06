@@ -169,6 +169,27 @@
     .copyright_text { font-size: 14px; line-height: 20px;}
     .top_strip_txt a span{ top:40px;}
 }
+
+/* Option button styles */
+.option-col {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.option-col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.option-col:hover .desc-opt {
+    color: #779d7c;
+    border-color: #779d7c;
+    background: #ffffff;
+}
+.option-col:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
 </style>
 </head>
 
@@ -188,44 +209,33 @@
                 <p class="question">How much weight do you <br class="show-mob">want to lose?</p>
                 <div class="option-box">
                     <ul class="multi-opt">
-                        <li href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" style="cursor: pointer;">
-                            <label class="option-col">
-                                <input type="radio" name="desc" class="inp-rad">
-                                <span class="opt-rad"></span>
+                        <li>
+                            <a href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" class="option-col">
                                 <div class="desc-opt opt-fld">
                                     <p>0-20 Pounds</p>
                                 </div>
-                            </label>
+                            </a>
                         </li>
-                        <li href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" style="cursor: pointer;">
-                            <label class="option-col">
-                                <input type="radio" name="desc" class="inp-rad">
-                                <span class="opt-rad"></span>
+                        <li>
+                            <a href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" class="option-col">
                                 <div class="desc-opt opt-fld">
-                                    <span class="rad-btn"></span>
                                     <p>21-40 Pounds</p>
                                 </div>
-                            </label>
+                            </a>
                         </li>
-                        <li href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" style="cursor: pointer;">
-                            <label class="option-col">
-                                <input type="radio" name="desc" class="inp-rad">
-                                <span class="opt-rad"></span>
+                        <li>
+                            <a href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" class="option-col">
                                 <div class="desc-opt opt-fld">
-                                    <span class="rad-btn"></span>
                                     <p>41-60 Pounds</p>
                                 </div>
-                            </label>
+                            </a>
                         </li>
-                        <li href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" style="cursor: pointer;">
-                            <label class="option-col">
-                                <input type="radio" name="desc" class="inp-rad">
-                                <span class="opt-rad"></span>
+                        <li>
+                            <a href="https://clk.semaglutide-deals.com/click/1?clickid={clickid}" class="option-col">
                                 <div class="desc-opt opt-fld">
-                                    <span class="rad-btn"></span>
                                     <p>Over 60 Pounds</p>
                                 </div>
-                            </label>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -530,27 +540,6 @@
     </div>
 </footer>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Get all li elements inside ul with class "multi-opt"
-    const optionItems = document.querySelectorAll('.multi-opt li');
-
-    optionItems.forEach(function(item) {
-        item.addEventListener('click', function() {
-            // Get the href attribute from the clicked li element
-            const link = this.getAttribute('href');
-
-            // If there's a link, redirect to it
-            if (link) {
-                window.location.href = link;
-            }
-        });
-
-        // Make the cursor appear as a pointer when hovering
-        item.style.cursor = 'pointer';
-    });
-});
-</script>
 
 <script src="https://clk.semaglutide-deals.com/uniclick.js?attribution=lastpaid&cookiedomain=&cookieduration=90&defaultcampaignid=68d2110ac0cc9decbdd93b84&regviewonce=false"></script>
 <script>
